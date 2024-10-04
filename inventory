@@ -1,5 +1,5 @@
 [managenodes]
-Server1 ansible_host=192.168.56.153 apache_package=apache2 php_package=libapache2-mod-php
-Server2 ansible_host=192.168.56.149 apache_package=apache2 php_package=libapache2-mod-php
+Server1 ansible_host=192.168.56.153 ansible_user=mark
+Server2 ansible_host=192.168.56.149 ansible_user=mark
 [centOS]
-centOS ansible_host=192.168.56.152 ansible_user=qmbnpuno apache_package=httpd php_package=php
+centOS ansible_host=192.168.56.152 ansible_user=qmbnpuno 
