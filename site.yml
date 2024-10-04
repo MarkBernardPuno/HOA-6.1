@@ -39,7 +39,7 @@
   become: true
   tasks:
 
- - name: install mariadb package (CentOS)
+  - name: install mariadb package (CentOS)
     yum:
       name: mariadb-server
       state: latest
