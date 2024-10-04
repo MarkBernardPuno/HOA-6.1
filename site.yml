@@ -35,11 +35,11 @@
       state: latest
     when: ansible_distribution == "CentOS"
 
-- hosts: server_centos
+- hosts: server_centOS
   become: true
   tasks:
 
-  - name: install mariadb package (CentOS)
+ - name: install mariadb package (CentOS)
     yum:
       name: mariadb-server
       state: latest
