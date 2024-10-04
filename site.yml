@@ -43,7 +43,7 @@
     yum:
       name: mariadb-server
       state: latest
-    when: ansible_distribution == "Centos"
+    when: ansible_distribution == "CentOS"
     
   - name: Mariadb Restarting/Enabling
     service:
